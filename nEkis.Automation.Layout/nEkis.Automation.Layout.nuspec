@@ -2,17 +2,27 @@
 <package >
   <metadata>
     <id>nEkis.Automation.Layout</id>
-    <version>0.0.1-alfa</version>
+    <version>0.0.3-alfa</version>
     <title>Layout testing</title>
     <authors>nekiscz</authors>
     <owners>nekiscz</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/nekiscz/nEkis.Automation.Layout/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/nekiscz/nEkis.Automation.Layout</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/nekiscz/Automation.Core/master/nekis.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Extention methods for testing layout</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>Alfa verion of layout testing framework containing basic methods mesuring position and distance of elements.</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>Automation Selenium Layout nEkis</tags>
+    <dependencies>
+      <dependency id="Selenium.Support" version="[3,)" />
+      <dependency id="Selenium.WebDriver" version="[3,)" />
+    </dependencies>
   </metadata>
+  <files>
+    <file src="content\Framework\SeleniumExtensions\*.cs.pp"      target="content\Framework\SeleniumExtensions\" />
+    <file src="App.config.transform"                              target="content\App.config.transform" />
+    <file src="bin\Debug\nEkis.Automation.Layout.dll"             target="lib\net45\nEkis.Automation.Layout.dll" />
+    <file src="bin\Debug\nEkis.Automation.Layout.XML"             target="lib\net45\nEkis.Automation.Layout.XML" />
+  </files>
 </package>

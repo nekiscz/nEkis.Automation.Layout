@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <section name="layoutSettings" type="nEkis.Automation.Layout.Configuration.LayoutConfig, nEkis.Automation.Layout"/>
+  </configSections>
+  <layoutSettings>
+  <!-- Documentation is available at: https://github.com/nekiscz/nEkis.Automation.Layout/wiki -->
+    <!-- Allowed differance in distances -->
+    <approximation value="" />
+    <!-- Screen sizes for testing, should be in order: desktop, tablet, phone, maximum of tree sizes-->
+    <screensizes value="" />
+  </layoutSettings>
+</configuration>
