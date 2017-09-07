@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>nEkis.Automation.Layout</id>
+    <version>0.0.1-alfa</version>
+    <title>Layout testing</title>
+    <authors>nekiscz</authors>
+    <owners>nekiscz</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>https://github.com/nekiscz/nEkis.Automation.Layout</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/nekiscz/Automation.Core/master/nekis.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extention methods for testing layout</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Automation Selenium Layout nEkis</tags>
+  </metadata>
+</package>
