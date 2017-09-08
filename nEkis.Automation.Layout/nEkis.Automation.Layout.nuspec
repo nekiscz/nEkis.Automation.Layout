@@ -2,20 +2,19 @@
 <package >
   <metadata>
     <id>nEkis.Automation.Layout</id>
-    <version>0.0.3-alfa</version>
+    <version>0.0.4-alfa</version>
     <title>Layout testing</title>
     <authors>nekiscz</authors>
     <owners>nekiscz</owners>
     <licenseUrl>https://raw.githubusercontent.com/nekiscz/nEkis.Automation.Layout/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/nekiscz/nEkis.Automation.Layout</projectUrl>
+    <projectUrl>https://github.com/nekiscz/nEkis.Automation.Layout/wiki</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/nekiscz/Automation.Core/master/nekis.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Extention methods for testing layout</description>
-    <releaseNotes>Alfa verion of layout testing framework containing basic methods mesuring position and distance of elements.</releaseNotes>
+    <description>Extension methods for testing layout in selenium</description>
+    <releaseNotes>Alfa version of layout testing framework containing basic methods mesuring position and distance of elements.</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>Automation Selenium Layout nEkis</tags>
     <dependencies>
-      <dependency id="Selenium.Support" version="[3,)" />
       <dependency id="Selenium.WebDriver" version="[3,)" />
     </dependencies>
   </metadata>

@@ -3,7 +3,7 @@ using nEkis.Automation.Layout;
 
 namespace $rootnamespace$
 {
-    static class LayoutMethods
+    public static class LayoutMethods
     {
         /// <summary>
         /// Gets if the element is positioned left to other element
